@@ -44,7 +44,7 @@ public class CloneRepository {
      * @param id
      * @return 
      */
-    public Optional<Clone> getCloneById(int id) {
+    public Optional<Clone> getCloneById(Integer id) {
         return cloneCrudRepository.findById(id);
     }
     

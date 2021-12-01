@@ -44,7 +44,7 @@ public class UserRepository {
      * @param id
      * @return 
      */
-    public Optional<User> getUserById(int id) {
+    public Optional<User> getUserById(Integer id) {
         return userCrudRepository.findById(id);
     }
     
